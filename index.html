@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  <h1> Conway's Game of Life </h1>
+  <p><strong>Welcome to Conway's Game of Life.</strong><br /> 
+	Conway's game of life was developed by British mathematician John Horton Conway in 1970.
+	The rules are simple. Below is an organism composed of individual cells. A white cell is 'dead'
+	and a black cell is 'alive'. If any dead cell has three neighboring cells that are alive, it 
+	will be brought to life upon the next iteration. If a cell is already alive, two or three of
+	its neighbors must also be alive for it to remain alive on the next iteration.
+	Please press the button to begin life.
+  </p>
+  <p id = "count">Count: 0</p>
+  <button type="button" onclick="startLife()">Begin</button>
+  <button type="button" onclick="nextStage()">Next</button>
+  <button type="button" onclick="startTimer()">Auto</button>
+  <p></p>
+  <canvas id="Canvas" width="500" height="500" style="border:1px solid #d3d3d3;">
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="gameOfLife.js"></script> 
+  </body>
+</html>
