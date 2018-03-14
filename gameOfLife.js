@@ -1,3 +1,11 @@
+/*
+	Author: Bud Linville
+	Date: 3/14/18
+	Purpose: Javascript functionality for Game Of Life Web Application
+	
+	Copyright 2017-2018 by Bud linville
+*/
+
 var timer;
 var count = 0;
 //var screenSize = 500;//$(window).width();
